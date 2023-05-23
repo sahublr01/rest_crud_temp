@@ -1,3 +1,3 @@
-# upgradeM3u8
+# RESTFUL CRUD API
 
-Go service to add subtitles and multiple Audio streams to media m3u8.
+Go service to use CRUD API using go routines
