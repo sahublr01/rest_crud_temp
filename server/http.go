@@ -3,9 +3,9 @@ package server
 import (
 	"net/http"
 	// "rest_crud/app"
-	"rest_crud_temp/utils"
+	"github.com/sahublr01/rest_crud_temp/utils"
 
-	"rest_crud_temp/app"
+	"github.com/sahublr01/rest_crud_temp/app"
 
 	"github.com/kataras/golog"
 )

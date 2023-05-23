@@ -7,9 +7,9 @@ import (
 
 	"runtime/debug"
 
-	"rest_crud_temp/utils"
+	"github.com/sahublr01/rest_crud_temp/utils"
 
-	"rest_crud_temp/config"
+	"github.com/sahublr01/rest_crud_temp/config"
 
 	"github.com/kataras/golog"
 )

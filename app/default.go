@@ -2,7 +2,7 @@ package app
 
 import (
 	"net/http"
-	
+
 	"github.com/kataras/golog"
 )
 

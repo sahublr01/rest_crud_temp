@@ -5,8 +5,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"rest_crud_temp/config"
-	"rest_crud_temp/server"
+	"github.com/sahublr01/rest_crud_temp/config"
+	"github.com/sahublr01/rest_crud_temp/server"
 
 	"github.com/kataras/golog"
 )

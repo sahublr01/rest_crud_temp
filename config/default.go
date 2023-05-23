@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"rest_crud_temp/utils"
+	"github.com/sahublr01/rest_crud_temp/utils"
 
 	"github.com/kataras/golog"
 	"github.com/spf13/viper"

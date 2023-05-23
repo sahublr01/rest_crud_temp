@@ -7,7 +7,6 @@ import (
 	"io"
 	"io/ioutil"
 
-	// "io/ioutil"
 	"math"
 	"math/rand"
 	"mime/multipart"
