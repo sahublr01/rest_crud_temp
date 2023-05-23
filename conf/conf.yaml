@@ -1,0 +1,19 @@
+
+#http://localhost:8040/getfiles?id=abc&dest=/home/amansharma1/go/src/gitlab.dell.com/Aman_Sharma/drive&url=https://drive.google.com/file/d/18kgkPm2Prd5tzeXvvn5Fcl-BUx_gPBlP/view?usp=sharing
+#verbose 0=>debug 1=>info 2=>error
+Verbose: 0
+#Environment dev,prod
+# CloudKit: slike-transcoder/conf/cloudkit.yaml
+# URI: [172.29.25.43,172.24.41.106,172.29.25.39]
+# FailOverRetry: 10
+# FFmpeg: ffmpeg
+# FFProbe: ffprobe
+# Port: :8030
+# UploadDir: /home/amansharma1/go/src/code.slike.in/golang/sliketranscoder-go/slike-transcoder/store/ #to be added in conf
+# APIBASE: "http://172.29.123.110:8831/jobs.json"
+Env: dev
+Listen: :8448
+# FileStore: /data1/store/pl/
+# Polling: 2
+# ProcessLimit: 3
+# Server: http://172.29.123.110
