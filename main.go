@@ -20,10 +20,9 @@ func main() {
 	signals := make(chan os.Signal, 1)
 	signal.Notify(signals, syscall.SIGINT, syscall.SIGTERM)
 	go func() {
-		// config.NotifyEvent("starting upgrade m3u8")
 		<-signals
-		golog.Info("upgrade m3u8 stopped")
-		// config.NotifyEvent("stopping upgrade m3u8")
+		golog.Info("crud_rest_temp stopped")
+
 		os.Exit(0)
 	}()
 

@@ -1,7 +1,9 @@
 package server
 
 import (
+	"fmt"
 	"net/http"
+
 	// "rest_crud/app"
 	"github.com/sahublr01/rest_crud_temp/utils"
 
@@ -20,6 +22,7 @@ func HttpHandler(w http.ResponseWriter, r *http.Request) {
 	} else if utils.PathIs(API, r) {
 		if r.Method == "POST" {
 			golog.Info("Post method check")
+			fmt.Print("Post method check")
 			res := app.PostAPI(w, r)
 			utils.SendJSONResponse(w, res, "Success", "", http.StatusOK, http.StatusOK)
 			return
